@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            gap: 10px;
+        }
+        span{
+            border: 2px solid gray;
+            height: 100px;
+            width: 5px;
+            background-color: gray;
+        }
+        span:nth-child(even){
+            animation: small .4s linear infinite;
+        }
+        span:nth-child(odd){
+            height: 0;
+            animation: big .8s linear infinite;
+        }
+        @keyframes small{
+            100%{
+                height: 0;
+            }
+        }
+        @keyframes big {
+            100%{
+                height: 100px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+<div>
+    <center>
+        <img src="./images3/rose1.jpg" alt="" width="150">
+        <pre>
+    Movie Name:Salaar-(2021)
+    Cast & Crew:Prabhas, Shruti Haasan, Jagapathhi Babu
+    Music:Ravi Basrur
+    </pre>
+    <audio controls>
+        <source src="../dummy/dummy2/[iSongs.info] 02 - Salaar Cease Fire Telugu Trailer Theme.mp3">
+    </audio><br><br>
+    </center>
+</div>
+
+
+
+
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+
+    
+</body>
+</html>
